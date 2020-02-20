@@ -6,8 +6,18 @@ body{
 }
 .header--bg{
     background: url('../img/header.jpeg');
+}
+.img--bg__1{
+    background-image: url("../img/vegetales.jpg");
+}
+.parallax {
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+}
+.h-500{
+    min-height: 500px; 
 }
 .header--bg__shadow{
     background-color: rgba(0, 0, 0, 0.35);
@@ -15,12 +25,22 @@ body{
 .navbar--bg__shadow{
     background-color: rgba(0, 0, 0, 0);
 }
-.h1{
+.h1,.font--special{
     font-family: 'Sriracha', cursive;
 }
 .p--small{
     font-family: 'Roboto';
     font-weight: 400;
+}
+.h6{
+    font-size: 1.25em;
+    color: #AA2A19;
+}
+.icon--small{
+    height: 1.25em;
+}
+.icon--large{
+    height: 9em;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
